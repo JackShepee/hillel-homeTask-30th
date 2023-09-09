@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
-import Counter from './Counter';
+import React from "react";
+import styles from "./App.module.css";
+import Counter from "./Counter";
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <Counter initialValue={0} />
     </div>
   );

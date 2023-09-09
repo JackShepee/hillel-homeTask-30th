@@ -1,0 +1,11 @@
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+.countValue {
+    font-size: 2em;
+    margin: 0 20px;
+}
+  
