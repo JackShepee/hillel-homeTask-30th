@@ -15,7 +15,7 @@ function Counter({ initialValue }) {
         +
       </Button>
       <Button
-        type="danger"
+        type="default"
         shape="round"
         onClick={() => setCount(initialValue)}
       >
